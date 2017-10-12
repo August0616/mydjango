@@ -18,6 +18,6 @@ from django.contrib import admin
 from newworld import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^index/$', views.index),
-    url(r'^hello/$', views.hello),
+    url(r'^index/', views.index),
+    url(r'^hello/', views.hello),
 ]
